@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Noto Serif", serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-label: "Plus Jakarta Sans", sans-serif;
+
+  --color-surface: #faf9f6;
+  --color-outline-variant: #d4c2c2;
+  --color-on-surface: #1a1c1a;
+  --color-surface-variant: #e3e2e0;
+  --color-tertiary-fixed-dim: #c7c6c4;
+  --color-primary-fixed-dim: #e9c349;
+  --color-on-secondary-container: #755c5f;
+  --color-surface-dim: #dbdad7;
+  --color-surface-container-lowest: #ffffff;
+  --color-primary: #735c00;
+  --color-primary-fixed: #ffe088;
+  --color-on-tertiary-fixed: #1b1c1b;
+  --color-on-primary-fixed: #241a00;
+  --color-outline: #827473;
+  --color-surface-tint: #735c00;
+  --color-primary-container: #f1ca50;
+  --color-secondary: #71585b;
+  --color-error: #ba1a1a;
+  --color-inverse-on-surface: #f2f1ee;
+  --color-inverse-surface: #2f312f;
+  --color-on-tertiary: #ffffff;
+  --color-surface-container-highest: #e3e2e0;
+  --color-on-secondary: #ffffff;
+  --color-on-primary-fixed-variant: #574500;
+  --color-on-surface-variant: #504444;
+  --color-error-container: #ffdad6;
+  --color-background: #faf9f6;
+  --color-on-primary-container: #6b5500;
+  --color-secondary-container: #f9d8db;
+  --color-surface-container: #efeeeb;
+  --color-on-tertiary-container: #575856;
+  --color-on-secondary-fixed: #281719;
+  --color-tertiary-fixed: #e3e2e0;
+  --color-surface-container-high: #e9e8e5;
+  --color-on-error: #ffffff;
+  --color-tertiary-container: #cfcecc;
+  --color-on-background: #1a1c1a;
+  --color-surface-bright: #faf9f6;
+  --color-surface-container-low: #f4f3f1;
+  --color-secondary-fixed-dim: #debfc2;
+  --color-on-tertiary-fixed-variant: #464746;
+  --color-inverse-primary: #e9c349;
+  --color-on-secondary-fixed-variant: #584144;
+  --color-tertiary: #5e5e5d;
+  --color-secondary-fixed: #fcdbde;
+  --color-on-primary: #ffffff;
+  --color-on-error-container: #93000a;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
