@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: 'Conjunto Colar e Brincos Pérola',
     price: 15000,
     category: 'Colares',
-    image: 'https://images.unsplash.com/photo-1599643478514-4a820cbf311e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'Conjunto elegante de colar e brincos com pérolas cultivadas, perfeito para ocasiões especiais.',
     isNew: true,
     sales: 120
@@ -80,7 +80,7 @@ export const products: Product[] = [
     name: 'Pulseira Berloques',
     price: 18000,
     category: 'Pulseiras',
-    image: 'https://images.unsplash.com/photo-1573408301145-b98c46544405?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1603561596112-0a132b757442?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'Pulseira estilo europeu pronta para receber os seus berloques favoritos.',
     isNew: true,
     sales: 95
@@ -100,7 +100,7 @@ export const products: Product[] = [
     name: 'Brincos Variados',
     price: 1500,
     category: 'Brincos',
-    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1629224316810-9d8805b95e76?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'Coleção de brincos variados, desde argolas a modelos com pérolas e pedras.',
     sales: 420
   },
@@ -109,7 +109,7 @@ export const products: Product[] = [
     name: 'Anéis de Garantia',
     price: 1000,
     category: 'Anéis',
-    image: 'https://images.unsplash.com/photo-1605100804763-247f66122228?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1611652022419-a9419f74343d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'Anéis de garantia em aço inoxidável dourado. Vários tamanhos disponíveis.',
     sales: 600
   },
@@ -118,7 +118,7 @@ export const products: Product[] = [
     name: 'Miniaturas (Perfumes/Cosméticos)',
     price: 1000,
     category: 'Cosméticos',
-    image: 'https://images.unsplash.com/photo-1596462502278-27bf85033e5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'Miniaturas práticas para levar na mala. Várias opções disponíveis.',
     sales: 380
   },
@@ -127,7 +127,7 @@ export const products: Product[] = [
     name: 'Turbantes / Tiaras',
     price: 1000,
     category: 'Acessórios de Cabelo',
-    image: 'https://images.unsplash.com/photo-1596455607563-ad6193f76b17?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     description: 'Turbantes e tiaras coloridas com laço. Perfeitas para dar um toque especial ao seu penteado.',
     isNew: true,
     sales: 250

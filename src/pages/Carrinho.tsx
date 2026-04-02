@@ -6,11 +6,7 @@ export const Carrinho = () => {
   const { items, updateQuantity, removeFromCart, totalPrice } = useCart();
 
   const formatPrice = (price: number) => {
-    return new Intl.NumberFormat('pt-AO', {
-      style: 'currency',
-      currency: 'AOA',
-      minimumFractionDigits: 2
-    }).format(price).replace('AOA', 'Kz');
+    return `${new Intl.NumberFormat('pt-AO').format(price)} Kz`;
   };
 
   const handleCheckout = () => {
@@ -26,7 +22,7 @@ export const Carrinho = () => {
     message += 'Aguardo informações sobre o pagamento e entrega.';
 
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/244938692999?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/244958182232?text=${encodedMessage}`, '_blank');
   };
 
   if (items.length === 0) {

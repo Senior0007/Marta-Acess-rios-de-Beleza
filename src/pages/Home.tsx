@@ -9,11 +9,7 @@ export const Home = () => {
   const topProducts = [...products].sort((a, b) => (b.sales || 0) - (a.sales || 0)).slice(0, 4);
 
   const formatPrice = (price: number) => {
-    return new Intl.NumberFormat('pt-AO', {
-      style: 'currency',
-      currency: 'AOA',
-      minimumFractionDigits: 2
-    }).format(price).replace('AOA', 'Kz');
+    return `${new Intl.NumberFormat('pt-AO').format(price)} Kz`;
   };
 
   const ProductCard = ({ product }: { product: typeof products[0] }) => (
@@ -151,7 +147,7 @@ export const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Link to="/loja?category=Colares" className="group relative h-80 rounded-2xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1599643478514-4a820cbf311e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                 alt="Colares" 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"

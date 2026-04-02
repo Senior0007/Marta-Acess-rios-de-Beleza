@@ -24,11 +24,7 @@ export const Produto = () => {
   if (!product) return null;
 
   const formatPrice = (price: number) => {
-    return new Intl.NumberFormat('pt-AO', {
-      style: 'currency',
-      currency: 'AOA',
-      minimumFractionDigits: 2
-    }).format(price).replace('AOA', 'Kz');
+    return `${new Intl.NumberFormat('pt-AO').format(price)} Kz`;
   };
 
   const handleAddToCart = () => {

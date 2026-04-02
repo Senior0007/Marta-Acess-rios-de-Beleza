@@ -27,7 +27,7 @@ export const Navbar = () => {
             <Link to="/" className={isActive('/')}>Início</Link>
             <Link to="/loja" className={isActive('/loja')}>Loja</Link>
             <Link to="/entrega" className={isActive('/entrega')}>Entrega</Link>
-            <a href="https://wa.me/244938692999" target="_blank" rel="noopener noreferrer" className="text-on-surface hover:text-primary transition-colors">Contacto</a>
+            <a href="https://wa.me/244958182232" target="_blank" rel="noopener noreferrer" className="text-on-surface hover:text-primary transition-colors">Contacto</a>
             
             <div className="flex items-center space-x-4 border-l border-surface-variant pl-4">
               <Link to="/carrinho" className="text-on-surface hover:text-primary transition-colors relative">
@@ -89,7 +89,7 @@ export const Navbar = () => {
               Entrega
             </Link>
             <a 
-              href="https://wa.me/244938692999" 
+              href="https://wa.me/244958182232" 
               target="_blank" 
               rel="noopener noreferrer"
               className="block px-3 py-2 rounded-md text-base text-on-surface hover:bg-surface-variant"

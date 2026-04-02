@@ -56,7 +56,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-start">
                 <span className="material-symbols-outlined text-primary mr-2 text-xl">call</span>
-                <span className="text-on-surface-variant text-sm">+244 938 692 999</span>
+                <span className="text-on-surface-variant text-sm">+244 958 182 232</span>
               </li>
               <li className="flex items-start">
                 <span className="material-symbols-outlined text-primary mr-2 text-xl">mail</span>
